@@ -1,6 +1,6 @@
-tags:: 
+tags:: [[nmartin84 MOC]] 
 customer:: [[nmartin84 MOC]] 
-related:: [[nmartin84]]
+related:: [[users/nmartin84]]
 created:: 06/28/2021
 status:: open
 
