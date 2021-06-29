@@ -107,7 +107,11 @@
  ;; the "NEXT" query asks the future tasks.
  :default-queries
  {:journals
-  [{:title            "🔨 NOW"
+  [{:title "README"
+    :query (property type required)
+    :collapsed? false}
+   
+   {:title            "🔨 NOW"
     :query            [:find (pull ?h [*])
                        :in $ ?start ?today
                        :where
