@@ -1,21 +1,21 @@
-type:: project
-customer:: [[ROC A]] 
+tags:: 
+customer:: [[nmartin84 MOC]] 
+related:: [[nmartin84]]
+created:: 06/28/2021
 status:: open
-created:: 06/21/2021
 
 ### Requirements
-	- php version 8.0.7
-	- nginx 1.18
+	- php version >= 8.0.3
+	- nginx version >= 1.18
 ### Open Items
-	- DONE dependency script requirements for services
-	  done:: 1624930309904
-		- ... done
-		- updated to include ((60da7927-d712-4b73-8882-040ccf36a839))
-	- DONE ensure users have migrated data off their shares 
-	  done:: 1624930516369
-	  DEADLINE: <2021-06-29 Tue>
-	  DEADLINE: <2021-06-29 Tue>
-	- DONE ensure we have backup in-place
-	  todo:: 1624930316807
-	  done:: 1624930441335
-		- ... backup has been completed and located on hst017 NFS share => [backup share](nfs:://hst017/backups/roc-a_06-23-2021_backup)
+	- DONE update **assessment** script to update php & nginx required versions.
+	  done:: 1624933433342
+	- DONE update process document for migration.
+	  done:: 1624933579707
+	- DONE inform users of service outage
+	  doing:: 1624933636458
+	  todo:: 1624933614481
+	  done:: 1624933637967
+	- DONE verify cluster has sufficient resources to maintain user load => ((60da8514-d56a-4a1d-942f-d0a7fe6d9db0))
+	  done:: 1624933740577
+		- ... completed, cluster resources are adequate to handle the load for Friday night.
